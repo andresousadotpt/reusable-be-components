@@ -15,4 +15,12 @@ public class User {
     @Id
     @GeneratedValue(generator = "UUID")
     private UUID id;
+
+    private String username;
+
+    private String password;
+
+    private Roles role;
+
+
 }
